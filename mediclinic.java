@@ -11,25 +11,30 @@ public class mediclinic{
     String bloodgroup;
     int weight;
     char gender;
-    personalinfo(String Name,int age,String bloodgroup,int weight,char gender){
-        this. Name=Name;
-        this. age=age;
-        this. bloodgroup=bloodgroup;
-        this. weight=weight;
-        this. gender=gender;
+    Scanner sc = new Scanner(System.in);
+    // personalinfo(String Name,int age,String bloodgroup,int weight,char gender){
+    //     this. Name=Name;
+    //     this. age=age;
+    //     this. bloodgroup=bloodgroup;
+    //     this. weight=weight;
+    //     this. gender=gender;
+    // }
+    void askpersonalinfo(){
+        System.out.println("Enter Your Name: ");
+        Name = sc.nextLine();
+        System.out.println("Enter Your age: ");
+        age = sc.nextInt();
+        System.out.println("Enter Your blood group: ");
+        bloodgroup = sc.nextLine();
+        System.out.println("Enter Your weight: ");
+        weight = sc.nextInt();
+        System.out.println("Enter Your gender: ");
+        gender = sc.next().charAt(0);
     }
  }
  
 
- public static void main(String args[]) {
-     MedicalInfo mi = new MedicalInfo();
-     mi.askMedicHistory();
-     String medicalHistory = mi.medicalHistory;
 
-
-
-
- }
 
 }
 class MedicalInfo {
@@ -58,7 +63,7 @@ class MedicalInfo {
                 break;
             default :
                 System.out.println("Please enter the valid choice :)");
-                System.out.println("We at the mediclinic try to provide the best service of you cooperate :)\nThanks!");
+                System.out.println("We at the mediclinic try to provide the best service if you cooperate :)\nThanks!");
 
         }
 //        System.out.println("The medical History is : " + medicalHistory);
