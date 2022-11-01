@@ -3,6 +3,7 @@ import java.io.*;
 
 
 
+
 public class mediclinic{
 
  class personalinfo{
@@ -35,10 +36,35 @@ public class mediclinic{
  
 
 
+ public static void main(String args[]) {
+     //Registration date
+     Date d = new Date();
+     MedicalInfo mi = new MedicalInfo();
+
+
+     //The functions in past Medical History
+     mi.askMedicHistory();
+     mi.askSymptoms();
+
+     //The parameters required to print in the report
+     String medicalHistory = mi.medicalHistory;
+     String symptom = mi.symptom;
+     String doctor = "Dr. Arnav Patil";
+
+
+
+
+
+
+
+
+
 
 }
 class MedicalInfo {
     String medicalHistory;
+    String symptom;
+
     Scanner sc = new Scanner(System.in);
     public void askMedicHistory() {
 
@@ -73,7 +99,32 @@ class MedicalInfo {
     }
 
     public void askSymptoms() {
-        System.out.println("What are the symptoms you are facing");
+        System.out.println("What are the symptoms you are facing\n");
+        System.out.println("Please select the options you are facing\n");
+        System.out.println("1.\n2.\n3.\n4.\n5.\n");
+        int symptom_no = sc.nextInt();
+        switch (symptom_no) {
+            case 1:
+                symptom = "Symptom no 1\n";
+                break;
+            case 2:
+                symptom = "Symptom no 2\n";
+                break;
+            case 3:
+                symptom = "Symptom no 3\n";
+                break;
+            case 4:
+                symptom = "Symptom no 4\n";
+                break;
+            case 5:
+                symptom = "Symptom no 5\n";
+                break;
+
+            default:
+                System.out.println("Please enter the valid choice :)");
+                System.out.println("We at the mediclinic try to provide the best service of you cooperate :)\nThanks!");
+
+        }
     }
 
 }
