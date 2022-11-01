@@ -19,12 +19,7 @@ public class mediclinic{
         this. gender=gender;
     }
  }
- public static void main(String args []) {
-
-     
-    }
-
- }
+ 
 
  public static void main(String args[]) {
      MedicalInfo mi = new MedicalInfo();
