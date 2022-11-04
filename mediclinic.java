@@ -69,8 +69,9 @@ public class mediclinic{
          fw.write("*PLEASE CORRELATE WITH CLINICAL CONDITIONS*\n\n\n");
          fw.write("Method: \n");
          fw.write("CHOL - CHOLESTROL OXIDASE , ESTERASE , PEROXIDASE\n");
-         fw.write("HD/LD - Derived from HDL and LDL Values\n");
+         fw.write("HD/LD - Derived from HDL and LDL Values\n\n");
          fw.write("Alert !!! 10-12 hours of fasting is mandatory for lipid parameters.If not, values might fluctuate\n");
+         fw.write("Status : CONFIRMED !");
 
          fw.write("Branches :\n");
          fw.write("Sitabuldi \t\t\t|\t\tNashik Rd  \t\t\t|\t\tCivil Lines\t\t\t|\t\tDharampeth\nOpp Hosp\t\t\t|\t\tNear Main circle\t|\t\tOpp Pinto Colony\t|\t\tGalaxy Park\n");

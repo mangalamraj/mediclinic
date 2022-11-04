@@ -16,25 +16,26 @@ Address :
 Consultant : Dr. Arnav Patil
 
 
-Registration date : Fri Nov 04 15:34:29 IST 2022
+Registration date : Fri Nov 04 19:16:46 IST 2022
 
 
 MEDICAL REPORT 
 
 
-Disease diagnosed : Heart Failure
+Disease diagnosed : cardiomyopathy artery disease
 
 
 
 The medicines prescribed : 
 
 
-1.Capoten
-2.Vasitec
-3.Monopril
-4.Prinivil
-5.Zestril
-6.Mavik
+1.Lanoxin
+2.Corlanor
+3.Xaretto
+4.Worvasc
+5.rivaroxaban
+6.perindopril
+
 
 
 Tests required : 
@@ -46,8 +47,9 @@ HDL Cholestrol - Direct 	|	 HDL/LDL Ratio 	|	 VLDL Cholestrol
 Method: 
 CHOL - CHOLESTROL OXIDASE , ESTERASE , PEROXIDASE
 HD/LD - Derived from HDL and LDL Values
+
 Alert !!! 10-12 hours of fasting is mandatory for lipid parameters.If not, values might fluctuate
-Branches :
+Status : CONFIRMED !Branches :
 Sitabuldi 			|		Nashik Rd  			|		Civil Lines			|		Dharampeth
 Opp Hosp			|		Near Main circle	|		Opp Pinto Colony	|		Galaxy Park
 White Field Road	|		Near Shoppy mall	|		Near Mill			|		Dwarka Chowk
