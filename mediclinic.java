@@ -72,7 +72,30 @@ public class mediclinic{
      catch (IOException e) {
          System.out.println(e);
      }
- 
+
+
+     try{
+         FileWriter fw = new FileWriter("Sample.txt");
+         fw.write("\t\t\t\t\t\t*** MEDICLINIC PVT LTD ***\n\n\n");
+         fw.write("\t\t\t----------------------\n\n\n\n\n\n");
+         fw.write("Name : \n");
+         fw.write("Age :\n");
+         fw.write("Mobile no :\n");
+         fw.write("Address : \n");
+         fw.write("Consultant : " + doctor);
+         fw.write("\n");
+         fw.write("MEDICAL REPORT \n");
+         fw.write("Disease diagnosed : "+ disease);
+         fw.write("The medicines prescribed : \n" + medicine);
+         fw.write("\n");
+         fw.close();
+
+
+     }
+     catch(IOException e) {
+         System.out.println(e.getMessage());
+     }
+
 
 
 

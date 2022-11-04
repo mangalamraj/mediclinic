@@ -1,0 +1,22 @@
+						*** MEDICLINIC PVT LTD ***
+
+
+					----------------------
+
+
+
+
+
+Name : 
+Age :
+Mobile no :
+Address : 
+Consultant : Dr. Arnav Patil
+MEDICAL REPORT 
+Disease diagnosed : Heart valve disease
+The medicines prescribed : 
+1.Candesarten
+2.Cozaar
+3.Diovan
+4.Valsartann5.Sacubitril
+
