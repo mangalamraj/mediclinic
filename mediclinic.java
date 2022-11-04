@@ -8,9 +8,7 @@ interface Identification {
     public void fingerprint();
     public void eyeScan();
 }
-public class mediclinic{
-
- class personalinfo{
+class personalinfo{
     String Name;
     int age;
     String bloodgroup;
@@ -39,6 +37,10 @@ public class mediclinic{
  }
  
 
+public class mediclinic{
+
+
+
 
  public static void main(String args[]) {
      //Registration date
@@ -46,6 +48,7 @@ public class mediclinic{
      MedicalInfo mi = new MedicalInfo();
      Cure c = new Cure();
      Discount di = new Discount();
+     personalinfo pi = new personalinfo();
 
      //The functions in past Medical History
      mi.askMedicHistory();
@@ -53,7 +56,7 @@ public class mediclinic{
      c.disease();
      c.curing();
      di.financial_info();
-
+     pi.askpersonalinfo();
 
 
      //The parameters required to print in the report
@@ -128,6 +131,7 @@ public class mediclinic{
 
 
 
+}
 }
 class MedicalInfo {
     String medicalHistory;
@@ -291,5 +295,5 @@ class Discount {
     }
 }
 
-}
+
 
