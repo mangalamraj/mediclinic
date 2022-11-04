@@ -3,7 +3,11 @@ import java.io.*;
 
 
 
-
+interface Identification {
+    public void faceId();
+    public void fingerprint();
+    public void eyeScan();
+}
 public class mediclinic{
 
  class personalinfo{
@@ -77,17 +81,32 @@ public class mediclinic{
      try{
          FileWriter fw = new FileWriter("Sample.txt");
          fw.write("\t\t\t\t\t\t*** MEDICLINIC PVT LTD ***\n\n\n");
-         fw.write("\t\t\t----------------------\n\n\n\n\n\n");
-         fw.write("Name : \n");
-         fw.write("Age :\n");
-         fw.write("Mobile no :\n");
-         fw.write("Address : \n");
+//         fw.write("\t\t\t----------------------\n\n\n\n\n\n");
+         fw.write("Name : \n\n\n");
+         fw.write("Age :\n\n\n");
+         fw.write("Mobile no :\n\n\n");
+         fw.write("Address : \n\n\n");
          fw.write("Consultant : " + doctor);
-         fw.write("\n");
-         fw.write("MEDICAL REPORT \n");
+         fw.write("\n\n\n");
+         fw.write("Registration date : " + d);
+         fw.write("\n\n\n");
+         fw.write("MEDICAL REPORT \n\n\n");
          fw.write("Disease diagnosed : "+ disease);
-         fw.write("The medicines prescribed : \n" + medicine);
-         fw.write("\n");
+         fw.write("\n\n\n");
+         fw.write("The medicines prescribed : \n\n\n" + medicine);
+         fw.write("\n\n\n");
+         fw.write("Tests required : \n");
+         fw.write("HDL Cholestrol - Direct \t|\t HDL/LDL Ratio \t|\t VLDL Cholestrol\n\n");
+         fw.write("*PLEASE CORRELATE WITH CLINICAL CONDITIONS*\n\n\n");
+         fw.write("Method: \n");
+         fw.write("CHOL - CHOLESTROL OXIDASE , ESTERASE , PEROXIDASE\n");
+         fw.write("HD/LD - Derived from HDL and LDL Values\n");
+         fw.write("Alert !!! 10-12 hours of fasting is mandatory for lipid parameters.If not, values might fluctuate\n");
+
+         fw.write("Branches :\n");
+         fw.write("Sitabuldi \t\t\t|\t\tNashik Rd  \t\t\t|\t\tCivil Lines\t\t\t|\t\tDharampeth\nOpp Hosp\t\t\t|\t\tNear Main circle\t|\t\tOpp Pinto Colony\t|\t\tGalaxy Park\n");
+         fw.write("White Field Road\t|\t\tNear Shoppy mall\t|\t\tNear Mill\t\t\t|\t\tDwarka Chowk\n");
+         fw.write("Nagpur\t\t\t\t|\t\tNashik\t\t\t\t|\t\tPune\t\t\t\t|\t\tMumbai");
          fw.close();
 
 
