@@ -1,22 +1,54 @@
-						***MEDICLINIC PVT LTD***
-
-
-					----------------------
-
-
-
+						*** MEDICLINIC PVT LTD ***
 
 
 Name : 
-Age :
-Mobile no :
-Address : 
-Consultant : Dr. Arnav Patil
-MEDICAL REPORT 
-Disease diagnosed : Heart valve disease
-The medicines prescribed : 
-1.Candesarten
-2.Cozaar
-3.Diovan
-4.Valsartann5.Sacubitril
 
+
+Age :
+
+
+Mobile no :
+
+
+Address : 
+
+
+Consultant : Dr. Arnav Patil
+
+
+Registration date : Fri Nov 04 15:34:29 IST 2022
+
+
+MEDICAL REPORT 
+
+
+Disease diagnosed : Heart Failure
+
+
+
+The medicines prescribed : 
+
+
+1.Capoten
+2.Vasitec
+3.Monopril
+4.Prinivil
+5.Zestril
+6.Mavik
+
+
+Tests required : 
+HDL Cholestrol - Direct 	|	 HDL/LDL Ratio 	|	 VLDL Cholestrol
+
+*PLEASE CORRELATE WITH CLINICAL CONDITIONS*
+
+
+Method: 
+CHOL - CHOLESTROL OXIDASE , ESTERASE , PEROXIDASE
+HD/LD - Derived from HDL and LDL Values
+Alert !!! 10-12 hours of fasting is mandatory for lipid parameters.If not, values might fluctuate
+Branches :
+Sitabuldi 			|		Nashik Rd  			|		Civil Lines			|		Dharampeth
+Opp Hosp			|		Near Main circle	|		Opp Pinto Colony	|		Galaxy Park
+White Field Road	|		Near Shoppy mall	|		Near Mill			|		Dwarka Chowk
+Nagpur				|		Nashik				|		Pune				|		Mumbai
