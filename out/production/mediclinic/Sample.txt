@@ -1,42 +1,57 @@
 						*** MEDICLINIC PVT LTD ***
 
 
-Name : 
+Name : kalpesh
 
+Age : 26
 
-Age :
+Mobile no : 3434343434
 
+Address : kalpeshsalave@gmail.com
 
-Mobile no :
+Bloodgroup : b+
 
+Gender : female
 
-Address : 
-
+Weight : 65.0
 
 Consultant : Dr. Arnav Patil
 
+Registration date & time : Sun Nov 06 12:40:31 IST 2022
 
-Registration date : Fri Nov 04 15:34:29 IST 2022
+Your Fingerprint Id is : 6697464
 
+Your Face Id is : 7492472
+
+Your EyeScan Id is : 6697464
 
 MEDICAL REPORT 
 
 
-Disease diagnosed : Heart Failure
+Past medical history : No past medical history
 
+
+Disease diagnosed : Heart valve disease
 
 
 The medicines prescribed : 
 
 
-1.Capoten
-2.Vasitec
-3.Monopril
-4.Prinivil
-5.Zestril
-6.Mavik
+1.Candesarten
+2.Cozaar
+3.Diovan
+4.Valsartann5.Sacubitril
 
 
+
+As you have income below 1 lakh , we are providing the medicines free of cost for you
+Total cost : 457
+Discount = 457Rs
+
+Cost of all the medicines to be paid : 457Rs
+
+Please verify the aadhar number as we will verify the fingerprint and eyescan for free treatment
+Cost = nill
 Tests required : 
 HDL Cholestrol - Direct 	|	 HDL/LDL Ratio 	|	 VLDL Cholestrol
 
@@ -47,8 +62,16 @@ Method:
 CHOL - CHOLESTROL OXIDASE , ESTERASE , PEROXIDASE
 HD/LD - Derived from HDL and LDL Values
 Alert !!! 10-12 hours of fasting is mandatory for lipid parameters.If not, values might fluctuate
-Branches :
-Sitabuldi 			|		Nashik Rd  			|		Civil Lines			|		Dharampeth
-Opp Hosp			|		Near Main circle	|		Opp Pinto Colony	|		Galaxy Park
-White Field Road	|		Near Shoppy mall	|		Near Mill			|		Dwarka Chowk
-Nagpur				|		Nashik				|		Pune				|		Mumbai
+
+
+
+
+For more enquiry :
+Contact : 9999999999
+Or visit mediclinic.org
+
+Our Branches :
+White Field Road , Bangalore
+Town Square , Mumbai
+Green Lantern Colony , Kolkata
+Blue Vines Road , Nashik
