@@ -1,41 +1,53 @@
 						*** MEDICLINIC PVT LTD ***
 
 
-Name : 
+Name : mangalam raj
 
+Age : 20
 
-Age :
+Mobile no : 9430591530
 
+Address : mango.26june@gmail.com
 
-Mobile no :
+Bloodgroup : O+
 
+Gender : M
 
-Address : 
-
+Weight : 70.0
 
 Consultant : Dr. Arnav Patil
 
+Registration date & time : Sun Nov 06 14:49:49 IST 2022
 
-Registration date : Fri Nov 04 16:50:09 IST 2022
+Your Fingerprint Id is : 8168762
 
+Your Face Id is : 2749187
+
+Your EyeScan Id is : 8168762
 
 MEDICAL REPORT 
 
 
-Disease diagnosed : Heart Failure
+Past medical history : No past medical history
 
+
+Disease diagnosed : Heart valve disease
 
 
 The medicines prescribed : 
 
 
-1.Capoten
-2.Vasitec
-3.Monopril
-4.Prinivil
-5.Zestril
-6.Mavik
+1.Candesarten
+2.Cozaar
+3.Diovan
+4.Valsartann5.Sacubitril
 
+
+
+Cost of all the medicines to be paid : 457Rs
+
+Please pay the bill at the bill counter 
+     Online as well as offline cash payment mode available
 
 Tests required : 
 HDL Cholestrol - Direct 	|	 HDL/LDL Ratio 	|	 VLDL Cholestrol
@@ -47,8 +59,16 @@ Method:
 CHOL - CHOLESTROL OXIDASE , ESTERASE , PEROXIDASE
 HD/LD - Derived from HDL and LDL Values
 Alert !!! 10-12 hours of fasting is mandatory for lipid parameters.If not, values might fluctuate
-Branches :
-Sitabuldi 			|		Nashik Rd  			|		Civil Lines			|		Dharampeth
-Opp Hosp			|		Near Main circle	|		Opp Pinto Colony	|		Galaxy Park
-White Field Road	|		Near Shoppy mall	|		Near Mill			|		Dwarka Chowk
-Nagpur				|		Nashik				|		Pune				|		Mumbai
+
+
+
+
+For more enquiry :
+Contact : 9999999999
+Or visit mediclinic.org
+
+Our Branches :
+White Field Road , Bangalore
+Town Square , Mumbai
+Green Lantern Colony , Kolkata
+Blue Vines Road , Nashik
