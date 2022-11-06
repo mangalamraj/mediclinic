@@ -15,7 +15,7 @@ class MobNoException extends Exception {
         return "The input is invalid here !\n";
     }
     public String getMessage() {
-        return "Please enter the mobile number less than 10 digits\n";
+        return "Please enter valid mobile no (10 digits)\n";
     }
 }
 

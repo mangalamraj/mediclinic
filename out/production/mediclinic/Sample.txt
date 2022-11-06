@@ -1,57 +1,56 @@
 						*** MEDICLINIC PVT LTD ***
 
 
-Name : kalpesh
+Name : a
 
-Age : 26
+Age : 19
 
-Mobile no : 3434343434
+Mobile no : 1111111111
 
-Address : kalpeshsalave@gmail.com
+Address : ar
 
-Bloodgroup : b+
+Bloodgroup : b
 
-Gender : female
+Gender : male
 
-Weight : 65.0
+Weight : 80.0
 
 Consultant : Dr. Arnav Patil
 
-Registration date & time : Sun Nov 06 12:40:31 IST 2022
+Registration date & time : Sun Nov 06 12:45:59 IST 2022
 
-Your Fingerprint Id is : 6697464
+Your Fingerprint Id is : 4886986
 
-Your Face Id is : 7492472
+Your Face Id is : 1497566
 
-Your EyeScan Id is : 6697464
+Your EyeScan Id is : 4886986
 
 MEDICAL REPORT 
 
 
-Past medical history : No past medical history
+Past medical history : Diabetic
 
 
-Disease diagnosed : Heart valve disease
+Disease diagnosed : cardiomyopathy artery disease
 
 
 The medicines prescribed : 
 
 
-1.Candesarten
-2.Cozaar
-3.Diovan
-4.Valsartann5.Sacubitril
+1.Lanoxin
+2.Corlanor
+3.Xaretto
+4.Worvasc
+5.rivaroxaban
+6.perindopril
 
 
 
-As you have income below 1 lakh , we are providing the medicines free of cost for you
-Total cost : 457
-Discount = 457Rs
+Cost of all the medicines to be paid : 674Rs
 
-Cost of all the medicines to be paid : 457Rs
+Please pay the bill at the bill counter 
+     Online as well as offline cash payment mode available
 
-Please verify the aadhar number as we will verify the fingerprint and eyescan for free treatment
-Cost = nill
 Tests required : 
 HDL Cholestrol - Direct 	|	 HDL/LDL Ratio 	|	 VLDL Cholestrol
 

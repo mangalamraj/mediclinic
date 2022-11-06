@@ -1,52 +1,50 @@
 						*** MEDICLINIC PVT LTD ***
 
 
-Name : a
+Name : mangalam raj
 
-Age : 19
+Age : 20
 
-Mobile no : 1111111111
+Mobile no : 9430591530
 
-Address : ar
+Address : mango.26june@gmail.com
 
-Bloodgroup : b
+Bloodgroup : O+
 
-Gender : male
+Gender : M
 
-Weight : 80.0
+Weight : 70.0
 
 Consultant : Dr. Arnav Patil
 
-Registration date & time : Sun Nov 06 12:45:59 IST 2022
+Registration date & time : Sun Nov 06 14:49:49 IST 2022
 
-Your Fingerprint Id is : 4886986
+Your Fingerprint Id is : 8168762
 
-Your Face Id is : 1497566
+Your Face Id is : 2749187
 
-Your EyeScan Id is : 4886986
+Your EyeScan Id is : 8168762
 
 MEDICAL REPORT 
 
 
-Past medical history : Diabetic
+Past medical history : No past medical history
 
 
-Disease diagnosed : cardiomyopathy artery disease
+Disease diagnosed : Heart valve disease
 
 
 The medicines prescribed : 
 
 
-1.Lanoxin
-2.Corlanor
-3.Xaretto
-4.Worvasc
-5.rivaroxaban
-6.perindopril
+1.Candesarten
+2.Cozaar
+3.Diovan
+4.Valsartann5.Sacubitril
 
 
 
-Cost of all the medicines to be paid : 674Rs
+Cost of all the medicines to be paid : 457Rs
 
 Please pay the bill at the bill counter 
      Online as well as offline cash payment mode available
