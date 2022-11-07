@@ -1,34 +1,34 @@
 						*** MEDICLINIC PVT LTD ***
 
 
-Name : mangalam raj
+Name : a
 
-Age : 20
+Age : 19
 
-Mobile no : 9430591530
+Mobile no : 1234556789
 
-Address : mango.26june@gmail.com
+Address : a
 
-Bloodgroup : O+
+Bloodgroup : b
 
-Gender : M
+Gender : male
 
-Weight : 70.0
+Weight : 82.5
 
 Consultant : Dr. Arnav Patil
 
-Registration date & time : Sun Nov 06 14:49:49 IST 2022
+Registration date & time : Sun Nov 06 22:54:36 IST 2022
 
-Your Fingerprint Id is : 8168762
+Your Fingerprint Id is : 1265467
 
-Your Face Id is : 2749187
+Your Face Id is : 7448834
 
-Your EyeScan Id is : 8168762
+Your EyeScan Id is : 1265467
 
 MEDICAL REPORT 
 
 
-Past medical history : No past medical history
+Past medical history : Cancer
 
 
 Disease diagnosed : Heart valve disease

@@ -19,7 +19,33 @@ class MobNoException extends Exception {
     }
 }
 
+class BldgrpException extends Exception {
+    @Override
+    public String toString() {
+        return "Invalid input !\n";
+
+
+    }
+    public String getMessage() {
+        return "Please enter the bloodgroup of 2 characters only !\n";
+    }
+}
+
+class emailException extends Exception {
+    @Override
+    public String toString() {
+        return "Invalid input!\n";
+
+    }
+    public String getMessage() {
+        return "Please enter a valid email address !(which includes @ and . )\n";
+    }
+
+}
+
 class personalinfo implements Identification{
+    int check1;
+    int check2;
     String Name;
     int age;
     String bloodgroup;
@@ -44,11 +70,45 @@ class personalinfo implements Identification{
         Name = sc.nextLine();
         System.out.println("Enter the email address : " );
         email = sc.nextLine();
+//        for(int i = 0 ; i<email.length() ; i++) {
+//            if(email.charAt(i) == '.' ) {
+//                check1 = 1;
+//
+//            }
+//            if( email.charAt(i) == '@') {
+//                check2 = 1;
+//            }
+//        }
+//        if(check1 != 1 && check2 != 1) {
+//            try{
+//                throw new emailException();
+//            }
+//            catch(Exception e) {
+//                System.out.println(e.toString());
+//                System.out.println(e.getMessage());
+//
+//            }
+//            email = sc.nextLine();
+//        }
         System.out.println("Enter Your age: ");
         age = sc.nextInt();
         sc.nextLine();
         System.out.println("Enter Your blood group: ");
         bloodgroup = sc.nextLine();
+        while(bloodgroup.length() !=2) {
+            try{
+                throw new BldgrpException();
+
+            }
+            catch(Exception e) {
+                System.out.println(e.toString());
+                System.out.println(e.getMessage());
+
+
+            }
+            bloodgroup = sc.nextLine();
+
+        }
         System.out.println("Enter Your gender: ");
         gender = sc.nextLine();
         System.out.println("Enter Your weight(in kg): ");
@@ -56,7 +116,7 @@ class personalinfo implements Identification{
         sc.nextLine();
         System.out.println("Enter the mobile number "  );
         mob_no = sc.nextLine();
-        if(mob_no.length()!=10) {
+        while(mob_no.length()!=10) {
             try{
                 throw new MobNoException();
             }
@@ -83,7 +143,7 @@ class personalinfo implements Identification{
  }
  
 
-public class mediclinic{
+public class mediclinic {
 
 
 
@@ -94,43 +154,44 @@ public class mediclinic{
      MedicalInfo mi = new MedicalInfo();
      Cure c = new Cure();
      Discount di = new Discount();
-     personalinfo pi = new personalinfo();
-     pi.askpersonalinfo();
-     pi.eyeScan();
-     pi.faceId();
-     pi.fingerprint();
+//     personalinfo pi = new personalinfo();
+     mi.askpersonalinfo();
+     mi.eyeScan();
+     mi.faceId();
+     mi.fingerprint();
 
      //The functions in past Medical History
      mi.askMedicHistory();
-//     mi.askSymptoms();
+     //Functions in cure
      c.disease();
      c.curing();
+     //Functions in discount
      di.financial_info();
 
 
      //The parameters required to print in the report
-     String name = pi.Name;
-     int age = pi.age;
-     String bloodgroup = pi.bloodgroup;
-     float weight = pi.weight;
-     String gender = pi.gender;
+     String name = mi.Name;
+     int age = mi.age;
+     String bloodgroup = mi.bloodgroup;
+     float weight = mi.weight;
+     String gender = mi.gender;
      String medicalHistory = mi.medicalHistory;
      String symptom = mi.symptom;
      String doctor = "Dr. Arnav Patil";
      String disease = c.disease;
      String medicine = c.medicine;
      int flag = di.flag;
-     int eyeScanId = pi.eyeScanId;
-     int faceId = pi.faceId;
-     int fingerprint = pi.fingerprintId;
-     String address = pi.email;
-     String no = pi.mob_no;
+     int eyeScanId = mi.eyeScanId;
+     int faceId = mi.faceId;
+     int fingerprint = mi.fingerprintId;
+     String address = mi.email;
+     String no = mi.mob_no;
      int cost = c.cost;
 
      System.out.println("The medical history is " + medicalHistory);
      System.out.println("Referred by "+ doctor);
      System.out.println("The disease diagnosed is " + disease);
-     System.out.println("The medicine prescribed  is " + medicine);
+     System.out.println("The medicine prescribed  is :\n" + medicine);
 
 
 
@@ -149,6 +210,7 @@ public class mediclinic{
 //         fw.write("\t\t\t----------------------\n\n\n\n\n\n");
          fw.write("Name : " + name);
          fw.write("\n\n");
+
          fw.write("Age : " + age);
          fw.write("\n\n");
 
@@ -193,24 +255,22 @@ public class mediclinic{
 
          fw.write("The medicines prescribed : \n\n\n" + medicine);
          fw.write("\n\n\n");
+
          if(flag ==1) {
              fw.write("As you have income below 1 lakh , we are providing the medicines free of cost for you\n");
              fw.write("Total cost : " + cost+"Rs\n");
              fw.write("Discount = " + cost +"Rs\n\n");
-         }
-         else{
-             fw.write("Cost of all the medicines to be paid : " + cost + "Rs\n\n");
-
-         }
-
-         if(flag == 1) {
              fw.write("Please verify the aadhar number as we will verify the fingerprint and eyescan for free treatment\n");
              fw.write("Cost = nill\n");
          }
          else{
+             fw.write("Cost of all the medicines to be paid : " + cost + "Rs\n\n");
              fw.write("Please pay the bill at the bill counter \n     ");
              fw.write("Online as well as offline cash payment mode available\n\n");
+
          }
+
+
          //Tests related info
          fw.write("Tests required : \n");
          fw.write("HDL Cholestrol - Direct \t|\t HDL/LDL Ratio \t|\t VLDL Cholestrol\n\n");
@@ -244,7 +304,7 @@ public class mediclinic{
 
 }
 }
-class MedicalInfo {
+class MedicalInfo extends personalinfo {
     String medicalHistory;
     String symptom;
     int symptom_no;
@@ -284,8 +344,8 @@ class MedicalInfo {
     }
 
     public void askSymptoms() {
-        System.out.println("What are the symptoms you are facing\n");
-        System.out.println("Please select the options you are facing\n");
+        System.out.println("What are the symptoms you are facing");
+        System.out.println("Please select the options you are facing");
         System.out.println("Choose any one (If multiple , then choose the higher one in the list)");
 
 //        System.out.println("1.\n2.\n3.\n4.\n5.\n");
