@@ -5,48 +5,46 @@ Name : a
 
 Age : 19
 
-Mobile no : 1111111111
+Mobile no : 1234556789
 
-Address : ar
+Address : a
 
 Bloodgroup : b
 
 Gender : male
 
-Weight : 80.0
+Weight : 82.5
 
 Consultant : Dr. Arnav Patil
 
-Registration date & time : Sun Nov 06 12:45:59 IST 2022
+Registration date & time : Sun Nov 06 22:54:36 IST 2022
 
-Your Fingerprint Id is : 4886986
+Your Fingerprint Id is : 1265467
 
-Your Face Id is : 1497566
+Your Face Id is : 7448834
 
-Your EyeScan Id is : 4886986
+Your EyeScan Id is : 1265467
 
 MEDICAL REPORT 
 
 
-Past medical history : Diabetic
+Past medical history : Cancer
 
 
-Disease diagnosed : cardiomyopathy artery disease
+Disease diagnosed : Heart valve disease
 
 
 The medicines prescribed : 
 
 
-1.Lanoxin
-2.Corlanor
-3.Xaretto
-4.Worvasc
-5.rivaroxaban
-6.perindopril
+1.Candesarten
+2.Cozaar
+3.Diovan
+4.Valsartann5.Sacubitril
 
 
 
-Cost of all the medicines to be paid : 674Rs
+Cost of all the medicines to be paid : 457Rs
 
 Please pay the bill at the bill counter 
      Online as well as offline cash payment mode available
